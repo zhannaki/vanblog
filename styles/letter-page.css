@@ -1,5 +1,6 @@
 @import "shared.css";
 @import "letter.css";
+@import "contacts.css";
 
 #letter-grid {
     display: grid;

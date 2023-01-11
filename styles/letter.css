@@ -8,6 +8,11 @@
     padding-top: 5px;
 }
 
+.letter-place {
+    font-weight: bolder;
+    font-style: italic;
+}
+
 .content{
     font-family: 'Shadows Into Light', cursive;
     font-size: 1.1rem;

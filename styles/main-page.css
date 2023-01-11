@@ -1,5 +1,6 @@
 @import "shared.css";
 @import "letter.css";
+@import "contacts.css";
 
 #main-grid {
     display: grid;
@@ -30,7 +31,7 @@
 #sketches {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: stretch;
     flex-wrap: wrap;
 }
 
@@ -85,5 +86,19 @@
 
     .section-title {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 430px) {
+    body {
+        font-size: 10px;
+    }
+
+    .section-title {
+        font-size: 1rem;
+    }
+
+    #header h1 {
+        font-size: 5rem;
     }
 }
