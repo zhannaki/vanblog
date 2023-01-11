@@ -1,0 +1,89 @@
+@import "shared.css";
+@import "letter.css";
+
+#main-grid {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr auto 0.5fr;
+    grid-template-rows: 0.3fr repeat(2, auto);
+    align-items: stretch;
+}
+
+#my-letters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 60px;
+}
+
+#my-letters {
+    grid-area: 2/2/3/5;
+}
+
+#my-sketches {
+    grid-area: 3/2/4/7;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #b77378;
+}
+
+#sketches {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sketches img {
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    #main-grid {
+        grid-template-columns: 0.5fr repeat(5, 1fr) 0.5fr;
+        grid-template-rows: repeat(3, auto) auto;
+    }
+
+    #contacts-bar {
+        grid-area: 4/2/5/6;
+        align-items: start;
+    }
+
+    #contacts-bar a {
+        margin-right: 20px;
+        display: inline;
+    }
+
+    #contacts-bar h3 {
+        margin-right: 20px;
+        font-size: 1.5rem;
+        display: inline;
+    }
+
+    #contact-me, #visit-me {
+        display: inline-block;
+    }
+
+    #my-letters {
+        grid-area: 2/2/3/7;
+    }
+
+    #my-sketches {
+        grid-area: 3/2/4/7;
+    }
+
+    #sketches img {
+        height: auto;
+        width: 150px;
+
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}

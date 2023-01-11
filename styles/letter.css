@@ -1,0 +1,30 @@
+.letter-top {
+    display: flex;
+    justify-content: space-between;
+    font-family: Menlo, serif;
+    color: #615a42;
+    border-top: 1px solid #615a42;
+    border-bottom: 2px solid #615a42;
+    padding-top: 5px;
+}
+
+.content{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.1rem;
+    color: rgb(64, 67, 100);
+}
+
+.read-more-link {
+    transition: font-size 1s;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.read-more-link a{
+    color: #ce5e67;
+    text-decoration: none;
+}
+
+.read-more-link:hover {
+    font-size: 1em;
+}
