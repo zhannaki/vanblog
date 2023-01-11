@@ -2,6 +2,15 @@
 @import "letter.css";
 @import "contacts.css";
 
+.section-title {
+    font-size: 2.5rem;
+    color: #b77378;
+}
+
+footer div a {
+    text-decoration: none;
+}
+
 #main-grid {
     display: grid;
     grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr auto 0.5fr;
@@ -21,11 +30,6 @@
 
 #my-sketches {
     grid-area: 3/2/4/7;
-}
-
-.section-title {
-    font-size: 2.5rem;
-    color: #b77378;
 }
 
 #sketches {
