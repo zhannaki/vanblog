@@ -37,10 +37,17 @@
 
 #header a {
     text-decoration: none;
-    color: #ce5e67;
+    color: #7c523f;
 }
 
-#header div {
-    text-align: right;
+#header button {
     font-size: 0.8em;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+blockquote {
+    margin: 0;
 }
