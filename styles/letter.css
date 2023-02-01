@@ -4,13 +4,19 @@
     font-family: Menlo, serif;
     color: #615a42;
     border-top: 1px solid #615a42;
-    border-bottom: 2px solid #615a42;
+    border-bottom: 1px solid #772121;
     padding-top: 5px;
 }
 
-.letter-place {
-    font-weight: bolder;
-    font-style: italic;
+.letter-top-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.letter-top img {
+    height: 60px;
+    border-radius: 5px;
 }
 
 .content{
